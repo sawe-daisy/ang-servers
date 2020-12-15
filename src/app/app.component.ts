@@ -25,4 +25,7 @@ export class AppComponent {
 
     console.log(serverData.serverContent)
   }
+  onChanges(){
+    this.serverElements[0].name='changed';
+  }
 }
